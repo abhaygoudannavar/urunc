@@ -116,7 +116,7 @@ func main() {
 			psCommand,
 			// specCommand,
 			startCommand,
-			// stateCommand,
+			stateCommand,
 		},
 		Before: func(_ context.Context, cmd *cli.Command) (context.Context, error) {
 			if !cmd.IsSet("root") {

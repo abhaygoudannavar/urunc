@@ -82,7 +82,7 @@ example, to run the Unikraft nginx image with QEMU:
 ```bash
 sudo nerdctl run --rm --snapshotter overlayfs \
   --runtime io.containerd.urunc.v2 \
-  harbor.nbfc.io/nubificus/urunc/nginx-qemu-unikraft:latest
+  harbor.nbfc.io/nubificus/urunc/nginx-qemu-unikraft-initrd:latest
 ```
 
 To verify the unikernel is running, check its IP address from the
